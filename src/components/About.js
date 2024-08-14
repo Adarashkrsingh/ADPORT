@@ -20,16 +20,7 @@ const About = () => {
       boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)',
       overflow: 'hidden'
     }}>
-      <header style={{
-        textAlign: 'center',
-        marginBottom: '20px',
-        background: 'linear-gradient(135deg, #ff6f61, #ffcc00)',
-        padding: '20px',
-        borderRadius: '10px',
-        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)'
-      }}>
-        <h1 style={{ margin: '0', color: '#fff' }}>Adarash Kumar Singh</h1>
-      </header>
+      
 
       <section>
         <h2 
