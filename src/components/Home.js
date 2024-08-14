@@ -9,8 +9,8 @@ const Home = () => {
                 <div className="hero-text">
                     <h1>Welcome to Adarsh Kumar Singh's Portfolio</h1>
                     <p>
-                        I am a passionate software developer with experience in building web applications. 
-                        Explore my work and get in touch!
+                    A driven third-year Bachelor's of Engineering student, specializing in Computer Science Engineering. With a passion for project management and problem-solving, I bring a diverse skill set to the table. Beyond the realm of technology, I embrace my creative side as a self taught artist, seeking innovative solutions in all aspects of life.
+
                     </p>
                     <a 
                         href="/path/to/cv.pdf" 
