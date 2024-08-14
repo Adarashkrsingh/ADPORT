@@ -116,6 +116,7 @@
 
     .cta-button {
         font-size: 0.9rem;
+        margin: 20px 0;
     }
 }
 
@@ -135,6 +136,10 @@
     .cta-button {
         font-size: 0.9rem;
         padding: 8px 16px;
+        position: fixed; /* Fixed position */
+        right: 10px; /* Right side of the screen */
+        top: 20px; /* Adjust top position as needed */
+        z-index: 1000; /* Ensure it stays on top */
     }
 
     .profile-photo {
@@ -150,15 +155,5 @@
 
     .hero-text p {
         font-size: 0.8rem;
-    }
-
-    .cta-button {
-        font-size: 0.8rem;
-        padding: 6px 12px;
-    }
-
-    .profile-photo {
-        width: 100px;
-        height: 100px;
     }
 }
