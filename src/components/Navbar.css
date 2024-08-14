@@ -1,0 +1,52 @@
+/* src/components/Navbar.css */
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #f8f9fa;
+    padding: 10px;
+    border-top: 4px solid #007bff;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between; /* Space between nav links and social icons */
+    align-items: center; /* Center items vertically */
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #007bff;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px; /* Space between icons */
+}
+
+.social-icons a {
+    color: #333; /* Icon color */
+    font-size: 24px; /* Icon size */
+    text-decoration: none; /* Remove underline */
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Change color on hover */
+}
