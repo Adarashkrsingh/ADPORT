@@ -55,6 +55,7 @@
     border-radius: 5px;
     text-decoration: none;
     transition: background 0.3s ease, transform 0.3s ease;
+    position: relative;
 }
 
 .cta-button i {
@@ -137,8 +138,8 @@
         font-size: 0.9rem;
         padding: 8px 16px;
         position: fixed; /* Fixed position */
-        right: 10px; /* Right side of the screen */
-        top: 20px; /* Adjust top position as needed */
+        left: 10px; /* Left side of the screen */
+        bottom: 10px; /* Bottom of the screen */
         z-index: 1000; /* Ensure it stays on top */
     }
 
