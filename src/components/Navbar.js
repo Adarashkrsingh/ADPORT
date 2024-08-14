@@ -13,7 +13,7 @@ const Navbar = () => {
                 <li><Link to="/contact">Contact</Link></li>
             </ul>
             <div className="social-icons">
-                <a href="https://www.instagram.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <a href="https://www.instagram.com/a.d.a.r.s.h_s.i.n.g.h__/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                     <FaInstagram />
                 </a>
                 <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
